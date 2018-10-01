@@ -4,26 +4,24 @@
     }
 }*/
 
-.portlet-decorate{
-    &.portlet-content{
-        padding: 0px 0px 0px 0px;
-        border-style: unset;
-    }
+.portlet-decorate {
+  &.portlet-content {
+    padding: 0px 0px 0px 0px;
+    border-style: unset;
+  }
 }
-
-
 
 .portlet-title-text {
-    &.portlet-title-editable{
-        display: none;
-    }
+  &.portlet-title-editable {
+    display: none;
+  }
 }
 
-.autofit-float{
-     &.autofit-row {
-         &.portlet-header {
-             background-color: black;
-             margin-bottom: 0px;
-         }
-     }
- }
+.autofit-float {
+  &.autofit-row {
+    &.portlet-header {
+      background-color: black;
+      margin-bottom: 0px;
+    }
+  }
+}
