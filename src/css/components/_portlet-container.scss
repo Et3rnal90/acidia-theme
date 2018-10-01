@@ -1,0 +1,39 @@
+.portlet{
+    margin-bottom: 0px;
+    .portlet-content{
+        padding: 0px;
+        border-style: none;
+        &.portlet-content-editable{
+            padding: 0px 0px 0px 0px;
+            border-style: none;
+            background-color: none;
+        }
+    }
+}
+
+.portlet-decorate{
+    .protlet-content{
+        //border-style: none;
+        border-color: red;
+    }
+}
+
+.portlet-content{
+    padding: 0px;
+    //border-style: none;
+    border-color: red;
+}
+
+.autofit-col{
+    &.autofit-col-end {
+        position: absolute;
+    }
+    &.autofit-col-expand {
+        display: none;
+    }
+}
+
+.portlet-topper{
+    //border-style: none;
+    border-color: red;
+}

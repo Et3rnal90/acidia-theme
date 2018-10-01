@@ -1,0 +1,24 @@
+.navbar-blank {
+    &.navbar-nav {
+        &.navbar-site{
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            li {
+                a {
+                    color: #76b900;
+                    font-family: "Helvetica", sans-serif;
+                    font-size: 2.5vw;
+                }
+            }
+        }
+    }
+}
+
+.child-menu {
+    .dropdown-menu {
+        background-color: whitesmoke;
+        border-radius: 0px;
+    }
+}

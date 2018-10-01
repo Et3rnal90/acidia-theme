@@ -1,0 +1,44 @@
+.banner-carousel{
+    &.container{
+        background-color: black;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+        padding: 20px;
+    }
+    &.slider{
+        width: 100%;
+    }
+    &.image{
+        object-fit: contain;
+        margin: auto;
+    }
+    &.text{
+        position:absolute;
+        top:10%;
+        left:10%;
+        h1{
+            color: #76b900;
+            font-family: "Helvetica", sans-serif;
+            font-size: 30px;
+        }
+        h2{
+            color: white;
+            font-family: "Helvetica", sans-serif;
+            font-size: 15px;
+        }
+    }
+    .slick-dots{
+        button {
+            background-color: #76b900;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #76b900;
+            border-radius: 5px;
+        }
+    }
+}
+
+.slick-list {
+    padding: 0px;
+}
