@@ -22,7 +22,9 @@
 
                     <#if cur_title.image.getData()?has_content>
 
-                        <img class="banner-carousel image" alt="${cur_title.image.getAttribute("alt")}" data-fileentryid="${cur_title.image.getAttribute("fileEntryId")}" src="${cur_title.image.getData()}" />
+                        <div class="banner-carousel cover" style="background-image:url(${cur_title.image.getData()});">
+
+                        </div>
 
                     </#if>
 
