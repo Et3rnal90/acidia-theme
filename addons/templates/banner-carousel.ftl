@@ -1,4 +1,4 @@
-<div class="banner-carousel container">
+<div class="banner-carousel">
 
     <div class="banner-carousel slider">
 
