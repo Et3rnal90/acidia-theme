@@ -14,28 +14,25 @@
 
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 
-                        <div class="titled-card-display element">
+                        <div class="titled-card-display element card">
 
-                            <div class="titled-card-display innerText">
+                            <div class="titled-card-display innerText card-body">
+
                                 <#if cur_title.getData()?has_content>
-                                    <h3>${cur_title.getData()}</h3>
+                                    <h3 class="card-title">${cur_title.getData()}</h3>
                                 </#if>
 
                                 <#if cur_title.description.getData()?has_content>
-                                    <h4>${cur_title.description.getData()}</h4>
+                                    <h4 class="card-text">${cur_title.description.getData()}</h4>
                                 </#if>
 
                             </div>
 
-                            <div class="titled-card-display image">
+                            <#if cur_title.image.getData()?has_content>
 
-                                <#if cur_title.image.getData()?has_content>
+                                <img class="card-img-bottom" alt="${cur_title.image.getAttribute("alt")}" data-fileentryid="${cur_title.image.getAttribute("fileEntryId")}" src="${cur_title.image.getData()}" />
 
-                                    <img alt="${cur_title.image.getAttribute("alt")}" data-fileentryid="${cur_title.image.getAttribute("fileEntryId")}" src="${cur_title.image.getData()}" />
-
-                                </#if>
-
-                            </div>
+                            </#if>
 
                         </div>
 

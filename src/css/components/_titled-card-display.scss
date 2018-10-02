@@ -1,51 +1,29 @@
 .titled-card-display {
   background-color: whitesmoke;
-  font-size: 12px;
 
   h1 {
+    padding-top: 10px;
     text-align: center;
-    color: whitesmoke;
     font-family: "Helvetica", sans-serif;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #76b900;
   }
 
-  /* CSS data without bootstrap
-  .container {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    min-width: 100%;
-}*/
-
   .element {
-    display: flex;
-    flex-direction: column;
     box-shadow: 2px 2px 1px #dedede, -2px -2px 1px #dedede, -2px 2px 1px #dedede,
       2px -2px 1px #dedede;
     margin: 10px;
-    img {
-      width: 100%;
-    }
-    $.image {
-        flex-grow: 2;
-    }
   }
 
   .innerText {
     background-color: white;
-    text-align: center;
-    flex-grow: 1;
     h3 {
-      font-size: 1.5rem;
+      font-size: 18px;
       color: #76b900;
       font-family: "Helvetica", sans-serif;
     }
     h4 {
-      font-size: 1rem;
+      font-size: 12px;
       color: dimgray;
       font-family: "Helvetica", sans-serif;
     }
