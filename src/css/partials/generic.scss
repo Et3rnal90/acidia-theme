@@ -1,0 +1,26 @@
+#navigation {
+  display: none;
+}
+#wrapper {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: black;
+}
+#banner {
+  h1 {
+    color: #76b900;
+    font-family: "Helvetica", sans-serif;
+  }
+}
+.site-title {
+  padding-left: 20px;
+}
+.portlet {
+  margin-bottom: 0px;
+}
+.portlet-content {
+  &.portlet-content-editable {
+    border-style: none;
+  }
+}
