@@ -1,7 +1,8 @@
 .banner-carousel {
   &.cover{
       background-size: cover;
-      height: 500px;
+      height: 60vw;
+      width: 100vw;
   }
   &.text {
     position: absolute;
