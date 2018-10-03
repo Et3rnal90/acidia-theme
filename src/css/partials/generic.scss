@@ -2,7 +2,9 @@
   display: none;
 }
 #wrapper {
-  padding: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-left: 0px;
   margin-right: 0px;
   background-color: black;
@@ -11,10 +13,16 @@
   h1 {
     color: #76b900;
     font-family: "Helvetica", sans-serif;
+    font-weight: bold;
   }
-}
-.site-title {
-  padding-left: 20px;
+  img {
+    max-height: 32px;
+    width: unset;
+  }
+  .site-title {
+    padding-left: 20px;
+    margin-bottom: 8px;
+  }
 }
 .portlet {
   margin-bottom: 0px;
