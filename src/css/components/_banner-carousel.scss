@@ -22,6 +22,14 @@
       font-size: 15px;
     }
   }
+  &.image {
+    width: 100vw;
+    height: 60vw;
+    text-align: center;
+    img {
+      object-fit: cover;
+    }
+  }
   .slick-dots {
     button {
       background-color: #76b900;
