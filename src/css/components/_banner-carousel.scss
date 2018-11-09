@@ -26,9 +26,12 @@
     width: 100vw;
     height: 60vw;
     text-align: center;
-    img {
-      object-fit: cover;
-    }
+  }
+  img {
+    object-fit: cover;
+    margin: auto;
+    width: 100vw;
+    height: 60vw;
   }
   .slick-dots {
     button {
